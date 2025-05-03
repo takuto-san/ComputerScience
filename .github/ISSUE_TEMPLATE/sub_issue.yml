@@ -6,7 +6,7 @@ body:
   - type: input
     id: parent
     attributes:
-      label: 関連リンク (Main Issue や資料 URL)
+      label: 関連リンク
       placeholder: https://example.com
   - type: input
     id: period
