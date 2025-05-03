@@ -1,6 +1,6 @@
 name: main-issue
 description: プロジェクト全体を俯瞰する親チケット
-title: " "
+title: " [Category]: "
 labels: ["main"]
 body:
   - type: input

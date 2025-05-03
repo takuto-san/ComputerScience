@@ -1,6 +1,6 @@
 name: sub-issue
 description: 子チケット
-title: " "
+title: "[Ticket]: "
 labels: ["sub"]
 body:
   - type: input
