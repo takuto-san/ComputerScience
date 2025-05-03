@@ -1,0 +1,40 @@
+name: main-issue
+description: プロジェクト全体を俯瞰する親チケット
+title: "🌟 "
+labels: ["main"]
+body:
+  - type: input
+    id: refurl
+    attributes:
+      label: 参考リンク (URL)
+      placeholder: https://example.com/article
+  - type: textarea
+    id: overview
+    attributes:
+      label: 概要
+      description: 目的 / 背景 を箇条書き or 1 段落でメモ
+  - type: textarea
+    id: detail
+    attributes:
+      label: 詳細 (目的・目標・戦略・戦術)
+      value: |
+        **目的**:  
+        
+        **目標**:  
+        
+        **戦略**:  
+        
+        **戦術**:  
+
+  - type: textarea
+    id: kpi
+    attributes:
+      label: KPI (いつまでに／どれくらい進捗なら OK?)
+      placeholder: |
+        例) 2025‑05‑31 までに Issue 消化率 60 % 以上
+  - type: textarea
+    id: risk
+    attributes:
+      label: リスク管理 (継続が難しくなった時の打ち手)
+      placeholder: |
+        例) 進捗 30 % 未満の場合 → 作業を週 3 セットに増やす
