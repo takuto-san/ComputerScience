@@ -1,6 +1,6 @@
 name: main-issue
 description: 親チケット
-title: "[Category]: "
+title: "⭐︎"
 labels: ["main"]
 body:
   - type: input
