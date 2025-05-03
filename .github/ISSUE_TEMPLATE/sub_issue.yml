@@ -7,12 +7,12 @@ body:
     id: parent
     attributes:
       label: 関連リンク (Main Issue や資料 URL)
-      placeholder: https://github.com/USER/REPO/issues/1
+      placeholder: https://example.com
   - type: input
     id: period
     attributes:
-      label: 期間 (YYYY‑MM‑DD 〜 YYYY‑MM‑DD)
-      placeholder: 2025‑05‑05 〜 2025‑05‑10
+      label: 期間
+      placeholder: 2025-05-05 ~ 2025-05-10
   - type: textarea
     id: todo
     attributes:
