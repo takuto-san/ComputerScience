@@ -1,6 +1,6 @@
 name: main-issue
 description: プロジェクト全体を俯瞰する親チケット
-title: "🌟 "
+title: " "
 labels: ["main"]
 body:
   - type: input
