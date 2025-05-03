@@ -12,7 +12,7 @@ body:
       label: Steps
       value: |
         - [ ] 
-  - type: date
+  - type: input
     id: due
     attributes:
-      label: Due date (任意)
+      label: Due date
